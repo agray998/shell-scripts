@@ -4,7 +4,7 @@ read -a numlist
 res=0
 
 for num in "${numlist[@]}"; do
-res=$(($res + $num))
+  res=$(($res + $num))
 done
 
 echo "Sum is: $res"
